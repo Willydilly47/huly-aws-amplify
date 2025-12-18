@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "frontend": "react",
+  "config": {
+    "Source": "src",
+    "Distribution": "dist"
+  },
+  "framework": {
+    "name": "vite",
+    "path": "/"
+  },
+  "build": {
+    "commands": {
+      "preBuild": [
+        "npm ci"
+      ],
+      "build": [
+        "npm run build"
+      ]
+    }
+  },
+  "artifacts": {
+    "baseDirectory": "dist",
+    "files": [
+      "**/*"
+    ]
+  },
+  "cache": {
+    "paths": [
+      "node_modules/**/*"
+    ]
+  }
+}
