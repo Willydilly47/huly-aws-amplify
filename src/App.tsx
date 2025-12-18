@@ -9,8 +9,6 @@ import Sidebar from './components/Sidebar';
 import ProjectView from './components/ProjectView';
 import TaskBoard from './components/TaskBoard';
 import './App.css';
-
-// Mock data for demonstration
 const mockWorkspace: Workspace = {
   id: '1',
   name: 'Huly Workspace',
